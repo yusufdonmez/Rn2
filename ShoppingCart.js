@@ -1,14 +1,10 @@
 import React, { Component } from "react";
-import { 
-    View,
-    Text,
-    StyleSheet
-} from "react-native";
-import {createStackNavigator} from 'react-navigation'
-import HomeScreen from './containers/HomeScreen'
-import ElectronicsScreen from './containers/ElectronicsScreen'
-import BooksScreen from './containers/BooksSreen'
-import CartScreen from './containers/CartScreen'
+import { StyleSheet } from "react-native";
+import { createStackNavigator } from 'react-navigation';
+import BooksScreen from './containers/BooksSreen';
+import CartScreen from './containers/CartScreen';
+import ElectronicsScreen from './containers/ElectronicsScreen';
+import HomeScreen from './containers/HomeScreen';
 import ShoppingCartIcon from './containers/ShoppingCartIcon';
 
 class ShoppingCart extends Component {

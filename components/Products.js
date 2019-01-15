@@ -1,10 +1,5 @@
 import React, { Component } from "react";
-import {
-    View,
-    Text,
-    StyleSheet,
-    Button
-} from "react-native";
+import { Button, StyleSheet, View } from "react-native";
 
 class Products extends Component {
 

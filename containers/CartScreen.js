@@ -1,11 +1,7 @@
 import React, { Component } from "react";
-import { 
-    View,
-    Text,
-    StyleSheet
-} from "react-native";
-import Products from '../components/Products'
-import {connect} from 'react-redux'
+import { StyleSheet, Text, View } from "react-native";
+import { connect } from 'react-redux';
+import Products from '../components/Products';
 
 class CartScreen extends Component {
     render() {

@@ -1,12 +1,7 @@
 import React from "react";
-import { 
-    View,
-    Text,
-    StyleSheet,Button
-} from "react-native";
-import { connect } from 'react-redux'
-import Icon from 'react-native-vector-icons/Ionicons'
-import { withNavigation } from 'react-navigation'
+import { Button, StyleSheet, Text, View } from "react-native";
+import { withNavigation } from 'react-navigation';
+import { connect } from 'react-redux';
 
 const ShoppingCartIcon = (props) => (
     <View style={{padding:5}}> 
