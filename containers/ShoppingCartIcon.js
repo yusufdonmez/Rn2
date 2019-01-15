@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
+import Icon from 'react-native-vector-icons/Ionicons';
 import { withNavigation } from 'react-navigation';
 import { connect } from 'react-redux';
 
@@ -10,8 +11,8 @@ const ShoppingCartIcon = (props) => (
                     alignItems:'center',justifyContent:'center',zIndex:2000}}>
             <Text style={{color:'white', fontWeight:'bold'}}>{props.cartItems.length}</Text>
         </View>
-        <Button title={props.cartItems.length.toString()} onPress={() => props.navigation.navigate('Cart')}/>
-        {/**<Icon onPress={() => props.navigation.navigate('Cart')} name="ios-cart" size={30} /> */}
+        {/**<Button title={props.cartItems.length.toString()} onPress={() => props.navigation.navigate('Cart')}/>*/}
+        <Icon onPress={() => props.navigation.navigate('Cart')} name="ios-cart" size={30} /> 
     </View>
     )
 const mapStateToProps = (state) => {
